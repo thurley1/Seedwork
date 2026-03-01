@@ -5,7 +5,12 @@
     <PackageId>Seedwork.EntityFrameworkCore</PackageId>
     <Version>1.0.0-preview.1</Version>
     <Description>EF Core integration for Seedwork — value converters, comparers, configuration extensions, and domain event dispatch.</Description>
+    <PackageReadmeFile>PACKAGE.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="PACKAGE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Seedwork\Seedwork.csproj" />

@@ -5,6 +5,11 @@
     <PackageId>Seedwork</PackageId>
     <Version>1.0.0</Version>
     <Description>DDD building blocks — Entity, ValueObject, AggregateRoot, Id, Guard clauses, and more. Zero external dependencies.</Description>
+    <PackageReadmeFile>PACKAGE.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="PACKAGE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
