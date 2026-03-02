@@ -2,12 +2,18 @@
 
 DDD building blocks for .NET — Entity, ValueObject, AggregateRoot, Id, Guard clauses, and more.
 
+[![CI](https://github.com/thurley1/Seedwork/actions/workflows/ci.yml/badge.svg)](https://github.com/thurley1/Seedwork/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/DddSeedwork.svg?label=DddSeedwork)](https://www.nuget.org/packages/DddSeedwork)
+[![NuGet](https://img.shields.io/nuget/v/DddSeedwork.EntityFrameworkCore.svg?label=DddSeedwork.EntityFrameworkCore)](https://www.nuget.org/packages/DddSeedwork.EntityFrameworkCore)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/DddSeedwork.svg?label=downloads)](https://www.nuget.org/packages/DddSeedwork)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Packages
 
-| Package | Description |
-|---------|-------------|
-| `Seedwork` | Core library (zero dependencies) — entities, value objects, aggregate roots, guard clauses, exceptions |
-| `Seedwork.EntityFrameworkCore` | EF Core integration — value converters, comparers, configuration extensions, domain event dispatch |
+| Package | NuGet | Description |
+|---------|-------|-------------|
+| `DddSeedwork` | [![NuGet](https://img.shields.io/nuget/v/DddSeedwork.svg)](https://www.nuget.org/packages/DddSeedwork) | Core library (zero dependencies) — entities, value objects, aggregate roots, guard clauses, exceptions |
+| `DddSeedwork.EntityFrameworkCore` | [![NuGet](https://img.shields.io/nuget/v/DddSeedwork.EntityFrameworkCore.svg)](https://www.nuget.org/packages/DddSeedwork.EntityFrameworkCore) | EF Core integration — value converters, comparers, configuration extensions, domain event dispatch |
 
 ## Quick Start
 
