@@ -4,7 +4,7 @@
     <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <TargetFramework />
     <IsPackable>true</IsPackable>
-    <PackageId>Seedwork</PackageId>
+    <PackageId>DddSeedwork</PackageId>
     <Version>1.0.0</Version>
     <Description>DDD building blocks — Entity, ValueObject, AggregateRoot, Id, Guard clauses, and more. Zero external dependencies.</Description>
     <PackageReadmeFile>PACKAGE.md</PackageReadmeFile>
